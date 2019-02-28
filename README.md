@@ -42,12 +42,13 @@ ph.bg 		--> Reciprocal lattice vectors
 
 ph.recips() 	
 
-			Calculate reciprocal lattice vectors
+		Calculate reciprocal lattice vectors
+		
 			return : ph.bg
 
 ph.wsweight(r) 	
 
-            Weighting functions required to calculate dispersion relation
+        Weighting functions required to calculate dispersion relation
             
             Please check : https://www.mail-archive.com/users@lists.quantum-espresso.org/msg24388.html
             for technical details
@@ -58,7 +59,7 @@ ph.wsweight(r)
 
 ph.set_ast(asr)
 
-			Acoustic sum rule
+		Acoustic sum rule
             
             input : asr == 'simple'
             
@@ -74,7 +75,7 @@ ph.set_ast(asr)
 
 ph.generate_q(axis, qspace)
 
-			Generate a set of q points
+		Generate a set of q points
             
             input : axis == '001'
                         equidistant points on z-axis of conventional unit cell
@@ -95,7 +96,7 @@ ph.generate_q(axis, qspace)
 
 ph.DOS(qspace, wspace)
 
-			Calculate DOS
+		Calculate DOS
             
             input : qspace - interspacings between q points
                     wspace - frequency spacings for binning
@@ -103,11 +104,11 @@ ph.DOS(qspace, wspace)
             return : DOS - Density of states
                      freq - list of frquencies
                      
-                     np.sum(DOS*freq) = 1
+                     np.sum(DOS*freq[1:]) = 1
 
 ph.plot(axis, dspace, espace)
 
-			Function to generate publication quality plots
+		Function to generate publication quality plots
             
             input : axis == 'DOS'
                     plot DOS
@@ -119,5 +120,4 @@ ph.plot(axis, dspace, espace)
                     plot dispersion along 011
                     
                     axis == '111'
-                    plot dispersion along 111
-
+                    plot dispersion along 111 
