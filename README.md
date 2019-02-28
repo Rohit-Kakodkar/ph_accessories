@@ -44,11 +44,11 @@ ph.recips()
 
 		Calculate reciprocal lattice vectors
 		
-			return : ph.bg
+		return : ph.bg
 
 ph.wsweight(r) 	
 
-        Weighting functions required to calculate dispersion relation
+        	Weighting functions required to calculate dispersion relation
             
             Please check : https://www.mail-archive.com/users@lists.quantum-espresso.org/msg24388.html
             for technical details
