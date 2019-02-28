@@ -27,8 +27,8 @@ DOS, freq = Si.DOS(qspace = 0.1, wspace = 1e12)
 
 ## Material variables
 
-ph.ntyp 	--> Number of type of atoms in the unit cell (int)
-ph.nat 		--> Number of atoms in the unit cell (int)
+ph.ntyp 	--> Number of type of atoms in the unit cell (int) <\br>
+ph.nat 		--> Number of atoms in the unit cell (int) <\br>
 ph.ityp 	--> Array of size ph.nat, where ityp[na] is integer defining the type of atom
 ph.at   	--> lattice vectors of the unit cell
 ph.tau  	--> basis  vectors of the unit cell
@@ -69,7 +69,7 @@ ph.set_ast(asr)
 
  		Calculate dynamic matrix on atom basis
             
-            input : q - wavevectors in ca
+            input : q - wavevectors in cartesian coordinates
             
             return : self.dyn
 
