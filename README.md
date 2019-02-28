@@ -28,15 +28,15 @@ DOS, freq = Si.DOS(qspace = 0.1, wspace = 1e12)
 ## Material variables
 
 ph.ntyp 	--> Number of type of atoms in the unit cell (int) <br />
-ph.nat 		--> Number of atoms in the unit cell (int) <\br>
-ph.ityp 	--> Array of size ph.nat, where ityp[na] is integer defining the type of atom
-ph.at   	--> lattice vectors of the unit cell
-ph.tau  	--> basis  vectors of the unit cell
-ph.amass 	--> mass of every atom in the unit cell. Array of size ph.ntyp
-ph.omega 	--> Volume of unit cell
-ph.epsil 	--> dielectric matrix
-ph.frc  	--> Force constant tensor.
-ph.bg 		--> Reciprocal lattice vectors
+ph.nat 		--> Number of atoms in the unit cell (int) <br />
+ph.ityp 	--> Array of size ph.nat, where ityp[na] is integer defining the type of atom <br />
+ph.at   	--> lattice vectors of the unit cell <br />
+ph.tau  	--> basis  vectors of the unit cell <br />
+ph.amass 	--> mass of every atom in the unit cell. Array of size ph.ntyp <br />
+ph.omega 	--> Volume of unit cell <br />
+ph.epsil 	--> dielectric matrix <br />
+ph.frc  	--> Force constant tensor. <br />
+ph.bg 		--> Reciprocal lattice vectors <br />
 
 ## Function Calls
 
