@@ -27,7 +27,7 @@ DOS, freq = Si.DOS(qspace = 0.1, wspace = 1e12)
 
 ## Material variables
 
-ph.ntyp 	--> Number of type of atoms in the unit cell (int) <\br>
+ph.ntyp 	--> Number of type of atoms in the unit cell (int) <br />
 ph.nat 		--> Number of atoms in the unit cell (int) <\br>
 ph.ityp 	--> Array of size ph.nat, where ityp[na] is integer defining the type of atom
 ph.at   	--> lattice vectors of the unit cell
