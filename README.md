@@ -67,7 +67,7 @@ ph.set_ast(asr)
 
  ph.frc_blk(q)
 
- 			Calculate dynamic matrix on atom basis
+ 		Calculate dynamic matrix on atom basis
             
             input : q - wavevectors in ca
             
