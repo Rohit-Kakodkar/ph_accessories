@@ -6,7 +6,7 @@ ph_accessories is python module to calculate harmonic thermal properties by usin
 
 ph_accessories(File_input)
 
-			Provides methods to calculate harmonic thermal properties         
+		Provides methods to calculate harmonic thermal properties         
             
             Input :
                 File_input :- Force constant file generated using Quantum Espresso. 
